@@ -1,0 +1,47 @@
+.nav_menu{
+    margin-left: 0px;
+    transition: .1s;
+}
+.nav-menu-open{
+    margin-left: 0px;
+    overflow-wrap: normal;
+    transition: .1s;
+}
+.pnb_logo{
+    font-size: .7em;
+}
+.footer-logo{
+    
+}
+.jumbotron{
+    background-image: url('../asset/img/bg-now.png');
+    background-position: right 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 650px;
+}
+
+
+@media screen and (max-width: 500px) {   
+        .jumbotron{
+            background-image: url('../asset/img/Background.png');
+            background-position: right 0px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 500px;
+        }
+  }
+
+  @media screen and (max-width: 1440px) {   
+    .jumbotron{
+        height: 570px;
+        background-attachment: fixed;
+    }
+    .img-logo{
+        width: 6rem;
+        height: 6rem;
+    }
+}
+  
+

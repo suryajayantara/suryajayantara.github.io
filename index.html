@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Club | Politeknik Negeri Bali</title>
+  <!-- Meta -->
+  <link rel="shortcut icon" href="asset/logo.png" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/imagehover.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+</head>
+
+<body>
+  <!-- SideNav -->
+  <header class="sticky top-0 z-50 ml-0 mt-0">
+    <div class="navigation flex hidden h-screen w-screen" id="navbars" style="background-color: rgba(0, 0, 0, 0.712);">
+      
+      <!-- Menu -->
+      <div class="nav_menu animated fadeInLeft slowest delay-150 flex h-screen w-2/3 md:w-1/5 lg:w-1/4 bg-gray-300" id="side_nav">
+        <div class="flex-wrap m-3">
+          <div class="flex">
+            <div class="Logo m-2">
+              <h1 class="text-gray-800 font-sans font-semibold">Computer Club</h1>
+              <small class="text-grey-800 font-sans font-thin">Politeknik Negeri Bali</small>
+            </div>
+          </div>
+          
+          <!-- Menu Content -->
+          <div class="flex  flex-col mt-8 text-gray-800 font-sans font-semibold text-lg">
+            <a class="m-3" href="#">Materi</a>
+            <a class="m-3" href="#">Pendaftaran</a>
+            <a class="m-3" href="#">Kontak</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+    <nav class="flex items-center justify-between flex-wrap-reverse p-3 shadow-md bg-white">
+      <div class="flex items-center flex-shrink-0 text-grey-400 uppercase mr-6">
+        <!-- Menu -->
+        <div class="block lg:hidden ml-2">
+          <button class="flex items-center px-1 py-2 text-grey-800 hover:text-white hover:border-white"
+            id="hamburger_menu">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <img src="asset/logo.png" alt="" srcset="" class="w-0 md:w-10 ml-2">
+        <div class="flex md:ml-4 flex-col">
+          
+          <h1 class="text-grey-400 font-sans font-semibold ">Computer Club</h1>
+          <p class="pnb_logo tracking-wider">Politeknik Negeri Bali</p>
+        </div>
+      </div>
+
+      <div class="w-full hidden flex-grow lg:flex lg:items-center lg:w-auto lg:block ml-16 font-semibold tracking-normal">
+        <div class="text-md lg:flex-grow">
+          <a href="#"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 delay-100 duration-75 hover:text-gray-900 mr-4 font-sans">
+            Materi
+          </a>
+          <a href="#"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 delay-100 duration-75 hover:text-gray-900 mr-4 font-sans">
+            Pendaftaran
+          </a>
+          <a href="#"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 delay-100 duration-75 hover:text-gray-900 font-sans">
+            Intech Fest
+          </a>
+        </div>
+      </div>
+      <div class="flex">
+        <a href="#" class="block p-2 rounded-lg text-gray-500 hover:text-gray-900 font-semibold">Sign In</a>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <main>
+
+
+      <div class="jumbotron flex lg:p-2 h-1/2">
+        <div class="flex-col m-5 lg:ml-40 p-2 h-10 md:content-end justify-end">
+          <div class="title md:ml-2/3 flex-col">
+            <h1 class="text-3xl lg:text-4xl mt-16 md:mt-24 lg:mt-32 font-sans font-semibold text-gray-700"> Mulai Dengan  </h1>
+            <h1 class="text-3xl lg:text-6xl font-sans font-semibold text-gray-700"> <span class="motto">  </span> </h1>
+            <p class="mt-5 lg:text-lg text-base font-semibold text-gray-800 tracking-normal capitalize">Computer club sebagai wadah kolaborasi dan tempat edukasi bagi mahasiswa.</p>
+          </div>
+          <div class="button mt-16 mb-20 lg:mt-10 xl:mt-16 flex-row md:flex">
+            <button class="bg-blue-500 p-2 rounded-sm md:shadow-lg text-white font-semibold w-full md:m-2 duration-200 delay-75 hover:bg-blue-700">Lebih Lanjut</button>
+            <button class="bg-white mt-4 rounded-sm md:shadow-lg p-2 text-gray-900 font-semibold w-full md:m-2  duration-200 delay-75 hover:bg-gray-200 hover:shadow-xl">Bergabung</button>
+          </div>
+        </div>
+
+      </div>
+
+     <div class="main-nav mb-20">
+      <section class="menu flex flex-col justify-center h-24 mt-40 lg:mt-12">
+        <h1 class="text-xl font-sans lg:mt-56 lg:text-3xl font-semibold text-gray-600 text-center uppercase mb-2"> TENTANG </h1>
+        <p class="text-sans lg:text-xl lg:m-2 lg:mb-32 font-thin text-sm text-center m-5 px-10"> Computer Club atau UKM CC merupakan suatu Unit kegiatan Mahasiswa di <span class="font-bold text">Politeknik Negeri Bali</span> yang memiliki visi , menyediakan wadah <span class="font-bold">Kolaborasi</span> serta <span class="font-bold">Media Belajar</span> bagi seluruh mahasiswa yang memiliki Minat pada bidang Teknologi Informasi . </p>
+      </section>
+
+      <div class="animatedParent grid grid-cols-1 lg:grid-cols-2 gap-2 mt-12 lg:mt-24 px-0 md:px-5">
+        
+        <!-- Visi -->
+        <div class="flex animated fadeInLeftShort flex-col md:flex-row m-8 border p-8 shadow-lg duration-300 delay-100 hover:shadow-2xl border-top">
+          <div class="div text-gray-700">
+            <hr class="textline  w-0  lg:w-1/3 bg-yellow-300 h-1">
+            <h1 class="text-4xl text-center lg:text-left border-top-width: 2px; md:mt-5 md:ml-1">Visi</h1>
+            <p class="font-sans font-thin mt-5 text-center lg:text-left">UKM Computer Club sebagai UKM yang menghasilkan SDM Yang berprestasi dan Kompeten .</p>
+          </div>
+          <img src="asset/img/about/vision.png" class="w-auto md:w-1/2" alt="" srcset="">
+        </div>
+
+        <!-- Misi -->
+        <div class="flex animated fadeInRightShort flex-col md:flex-row m-8 border p-5 shadow-lg duration-300 delay-100 hover:shadow-2xl">
+          <div class="div text-gray-700">
+            <hr class="textline w-0  lg:w-1/3 bg-blue-300 h-1">
+            <h1 class="text-4xl text-center lg:text-left md:mt-5 md:ml-1">Misi</h1>
+            <p class="font-sans font-thin text-center lg:text-left mt-5">Mengikuti berbagai macam perlombaan serta mengadakan kegiatan untuk mengembangkan para mahasiswa .</p>
+          </div>
+          <img src="asset/img/about/mission.png" class="w-auto md:w-1/2 h-1/2" alt="" srcset="">
+        </div>
+        
+      </div>
+     </div>
+
+     <section class="animatedParent animateOnce division bg-white flex flex-col">
+        <h1 class="text-xl font-sans lg:mt-10 lg:text-3xl font-semibold text-gray-600 text-center uppercase tracking-wide mb-3"> DIVISI </h1>
+        <p class="text-sans lg:text-xl lg:m-2 font-thin text-sm text-center m-5 md:px-24"> Beberapa divisi yang tersedia di UKM Computer Club , sebagai media <span class="font-semibold">Pengembangan Diri</span> serta <span class="font-semibold">Mengasah Kemampuan</span> yang kamu miliki. Dengan begitu , Kamu dapat lebih mudah menentukan minat dan bakatmu. </p>
+       <!-- Card For Section -->
+       <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 m-10 mb-10">  
+        <!-- Card 1 -->
+        <div class="card flex flex-col p-5 delay-75 duration-100 hover:shadow-2xl ml-1 animated fadeInLeftShort">
+          <h1 class="text-sm mb-2 font-semibold font-sans text-blue-500 tracking-wider uppercase">Divisi </h1>
+          <img src="asset/img/Divison/design.png" alt="" srcset="" class="w-auto">
+          <div class="desc m-2">
+            <h1 class="text-2xl font-semibold capitalize">Creative Design </h1>
+            <p class="font-sans font-thin tracking-wide mt-8">Eksplorasi <span class="font-semibold">Kreatifitas</span> dengan memanfaatkan teknologi.</p>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mt-4 mb-4">
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Video</button>
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Editing</button>
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Ilustration</button>
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Visual Effect</button>
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Design</button>
+          </div>
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="card flex flex-col p-5 delay-75 duration-100 hover:shadow-2xl ml-1 animated fadeInUpShort">
+          <h1 class="text-sm mb-2 font-semibold font-sans text-blue-500 tracking-wider uppercase">Divisi</h1>
+          <img src="asset/img/Divison/web.png" alt="" srcset="" class="w-auto">
+          <div class="desc m-2">
+            <h1 class="text-2xl font-semibold capitalize">Web Development</h1>
+            <p class="font-sans font-thin tracking-wide mt-8">Belajar mengembangkan <span class="font-semibold">Website</span> dari tampilan hingga sistem.</p>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mt-4 mb-4">
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">HTML</button>
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">CSS</button>
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Javascript</button>
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">PHP</button>
+          </div>
+        </div>
+
+
+        <!-- Card 3 -->
+        <div class="card flex flex-col p-5 delay-75 duration-100 hover:shadow-2xl ml-1 animated fadeInDownShort">
+          <h1 class="text-sm mb-2 font-semibold font-sans text-blue-500 tracking-wider uppercase">Divisi </h1>
+          <img src="asset/img/Divison/office.png" alt="" srcset="" class="w-auto">
+          <div class="desc m-2">
+            <h1 class="text-2xl font-semibold capitalize">Office</h1>
+            <p class="font-sans font-thin tracking-wide mt-8">Latihan <span class="font-semibold">Mengoprasikan</span> aplikasi kantoran secara interaktif.</p>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mt-4 mb-4">
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Excel</button>
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Power Point</button>
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Access</button>
+          </div>
+        </div>
+
+
+        <!-- Card 4 -->
+        <div class="card flex flex-col p-5 delay-75 duration-100 hover:shadow-2xl ml-1 animated fadeInRightShort">
+          <h1 class="text-sm mb-2 font-semibold font-sans text-blue-500 tracking-wider uppercase">Divisi </h1>
+          <img src="asset/img/Divison/game.png" alt="" srcset="" class="w-auto">
+          <div class="desc m-2">
+            <h1 class="text-2xl font-semibold capitalize">Game Development</h1>
+            <p class="font-sans font-thin tracking-wide mt-8">Tidak hanya <span class="font-semibold">Memainkannya</span> , tapi juga <span class="font-semibold"> Membuat</span> game itu sendiri.</p>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mt-4 mb-4">
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Construct 2</button>
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Unity 3D</button>
+            <button class="border font-semibold border-gray-500 w-auto p-1 rounded-full text-xs duration-100 delay-75 hover:bg-gray-200 hover:shadow-lg">Game Party</button>
+          </div>
+        </div>
+      </section>
+     </section>
+
+
+     <section class="bg-galery flex flex-col">
+      <h1 class="text-xl font-sans lg:mt-10 lg:text-3xl font-semibold text-gray-600 text-center uppercase tracking-wide text-center mt-10">Galery</h1>
+      <p class="text-center font-sans tracking-wide font-thin mt-5">Sekilas pandang dan rekam gambar dari <span class="font-bold">Program Kerja</span> yang dimiliki oleh UKM Computer Club.</p>
+      <!-- Galery -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 md:gap-10 m-5 md:m-16">
+          
+          <!-- Img 1 -->
+          <div class="w-auto duration-100 delay-75 hover:shadow-2xl">
+            <figure class="imghvr-shutter-in-out-diag-1">
+              <img src="asset/img/actity/1.jpg" alt="">
+              <figcaption>
+                  <h1 class="font-sans font-semibold text-xs md:text-xl text-gray-800">E-Sport Arena Gaming League Series (EAGLES)</h1>
+                  <h1 class="font-sans font-thin text-md mt-8 md:mt-6 lg:mt-12 text-gray-800">Technical Meeting</h1>
+                  <h1 class="font-sans font-thin text-sm text-gray-800 tracking-wide">23 Juni 2019</h1>
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- Img 2 -->
+          <div class="w-auto duration-100 delay-75 hover:shadow-2xl">
+            <figure class="imghvr-shutter-in-out-diag-1">
+              <img src="asset/img/actity/2.jpg" alt="">
+              <figcaption>
+                  <h1 class="font-sans font-semibold text-xs md:text-xl text-gray-800">E-Sport Arena Gaming League Series (EAGLES)</h1>
+                  <h1 class="font-sans font-thin text-md mt-8 md:mt-6 lg:mt-12 text-gray-800"> Match Day </h1>
+                  <h1 class="font-sans font-thin text-sm text-gray-800 tracking-wide">30 Juni 2019</h1>
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- Img 3 -->
+          <div class="w-auto duration-100 delay-75 hover:shadow-2xl">
+            <figure class="imghvr-shutter-in-out-diag-1">
+              <img src="asset/img/actity/5.jpg" alt="">
+              <figcaption>
+                  <h1 class="font-sans font-semibold text-xs md:text-xl text-gray-800">E-Sport Arena Gaming League Series (EAGLES)</h1>
+                  <h1 class="font-sans font-thin text-sm md:text-md mt-8 md:mt-6 lg:mt-12 text-gray-800"><span class="font-semibold"> Gustaf Halim </span> sebagai Narasumber</h1>
+                  <h1 class="font-sans font-thin text-sm text-gray-800 tracking-wide">6 Juli 2019</h1>
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- Img 5 -->
+          <div class="w-auto duration-100 delay-75 hover:shadow-2xl">
+            <figure class="imghvr-shutter-in-out-diag-1">
+              <img src="asset/img/actity/6.jpg" alt="">
+              <figcaption>
+                  <h1 class="font-sans font-semibold text-xs md:text-xl text-gray-800">E-Sport Arena Gaming League Series (EAGLES)</h1>
+                  <h1 class="font-sans font-thin text-md mt-8 md:mt-6 lg:mt-12 text-gray-800">Peserta Seminar Nasional</h1>
+                  <h1 class="font-sans font-thin text-sm text-gray-800 tracking-wide">6 Juli 2019</h1>
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- Img 6 -->
+          <div class="w-auto duration-100 delay-75 hover:shadow-2xl">
+            <figure class="imghvr-shutter-in-out-diag-1">
+              <img src="asset/img/actity/7.jpg" alt="">
+              <figcaption>
+                  <h1 class="font-sans font-semibold text-xs md:text-xl text-gray-800">E-Sport Arena Gaming League Series (EAGLES)</h1>
+                  <h1 class="font-sans font-thin text-md mt-8 md:mt-6 lg:mt-12 text-gray-800">Seluruh Panitia</h1>
+                  <h1 class="font-sans font-thin text-sm text-gray-800 tracking-wide">7 Juli 2019</h1>
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- Img 9 -->
+          <div class="w-auto duration-100 delay-75 hover:shadow-2xl">
+            <figure class="imghvr-shutter-in-out-diag-1">
+              <img src="asset/img/actity/9.jpg" alt="">
+              <figcaption>
+                  <h1 class="font-sans font-semibold text-xs md:text-xl text-gray-800">Computer Club Training Season (CCTS)</h1>
+                  <h1 class="font-sans font-thin text-md mt-8 md:mt-6 lg:mt-12 text-gray-800">Pembukaan Acara</h1>
+                  <h1 class="font-sans font-thin text-sm text-gray-800 tracking-wide">10 Juni 2019</h1>
+              </figcaption>
+            </figure>
+          </div>
+
+          
+      </div>
+    </section>
+
+    <!-- Section Footers -->
+    <section class="footer h-full bg-white">
+      <div class="grid grid-cols-1 md:grid-cols-3">
+        <div class="content-footer flex-row">
+          
+          <div class="animatedParent footer-logo p-6 flex flex-row mt-5">
+            <img src="asset/logo.png" alt="" class="w-12 md:w-24  xl:w-24 ml-6 animated fadeInLeftShort img-logo">
+            <div class="flex flex-col ml-6">
+              <h1 class="mt-1 md:mt-2 font-sans font-bold text-gray-600 text-md lg:text-3xl uppercase animated fadeInLeftShort">Computer Club</h1>
+              <h1 class="font-sans font-light text-gray-600 text-sm lg:text-2xl animated fadeInLeftShort">Politeknik Negeri Bali</h1>
+            </div>   
+          </div>
+          <div class="animatedParent address px-10 flex flex-col ml-2 md:ml-5">
+            <h1 class="font-semibold text-md text-gray-700 tracking-tight my-1 animated fadeInLeftShort">Gedung K - Lab Math DP - Lt 1 & Lt 2</h1>
+            <h1 class="font-semibold text-md text-gray-700 tracking-tight my-1 animated fadeInLeftShort">Jalan Raya Uluwatu No.45, Jimbaran</h1>
+            <h1 class="font-thin text-md text-gray-700 tracking-tight my-1 animated fadeInLeftShort"> Kabupaten Badung - Bali - 80361</h1>
+          </div>
+          <div class="animatedParent maps flex flex-row ml-2 md:ml-6 mt-4">
+            <hr class="w-1/5 ml-10 mt-3 border-black animated fadeInLeftShort slowest">
+            <a id="direction" class="ml-2 font-sans font-semibold text-gray-700 animated fadeInLeftShort duration-100 delay-75 hover:text-blue-700 slowest">Direksi Maps</a>
+          </div>
+          <div class="animatedParent address px-10 flex flex-col ml-2 md:ml-5 my-2">
+            <h1 class="font-semibold text-md text-gray-700 tracking-tight my-1 animated fadeInLeftShort">info@computerclub.pnb.ac</h1>
+            <h1 class="font-semibold text-md text-gray-700 tracking-tight my-1 animated fadeInLeftShort">+62 878 6000 2191</h1>
+          </div>
+
+          
+        </div>
+
+        <div class="link flex flex-col content-end mx-10 md:mx-32 my-10 animatedParent">
+          <h1 class="text-4xl font-bold text-gray-500 duration-100 delay-75 hover:text-gray-600 animated fadeInLeftShort">Events</h1>
+          <a href="#" class="text-xl font-semibold my-2 text-gray-400 duration-100 delay-75 hover:text-gray-700 animated fadeInLeftShort slowest">Intech Fest (Soon) </a>
+          <a href="#" class="text-xl font-semibold my-2 text-gray-400 duration-100 delay-75 hover:text-gray-700 animated fadeInLeftShort slowest">PNB Eagles</a>
+          <a href="#" class="text-xl font-semibold my-2 text-gray-400 duration-100 delay-75 hover:text-gray-700 animated fadeInLeftShort slowest">CCTS</a>
+          <a href="#" class="text-xl font-semibold my-2 text-gray-400 duration-100 delay-75 hover:text-gray-700 animated fadeInLeftShort slowest">CCC</a>
+        </div>
+
+        <div class="link flex flex-col content-end mx-10 md:mx-32 my-10 animatedParent">
+          <h1 class="text-4xl font-bold text-gray-500 duration-100 delay-75 hover:text-gray-600 animated fadeInLeftShort">Division</h1>
+            <a href="#" class="text-xl font-semibold my-2 text-gray-400 duration-100 delay-75 hover:text-gray-700 animated fadeInLeftShort slowest">Game Development</a>
+            <a href="#" class="text-xl font-semibold my-2 text-gray-400 duration-100 delay-75 hover:text-gray-700 animated fadeInLeftShort slowest">Web Development</a>
+            <a href="#" class="text-xl font-semibold my-2 text-gray-400 duration-100 delay-75 hover:text-gray-700 animated fadeInLeftShort slowest">Creative Design</a>
+            <a href="#" class="text-xl font-semibold my-2 text-gray-400 duration-100 delay-75 hover:text-gray-700 animated fadeInLeftShort slowest">Office</a>
+
+        </div>
+
+      </div>
+
+     
+
+    </section>
+    <section class="footer">
+      <div class="footer m-5">
+        <hr class="border border-gray-200">
+        <h1 class="m-3 font-thin text-sm text-center uppercase tracking-wide">Copyright &copy; Unit Kegiatan Mahasiswa Computer Club all right reserved </h1>
+      </div>
+    </section>
+
+  </main>
+
+
+
+  <!-- Script Here -->
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+  <script src="js/css3-animate-it.js"></script>
+
+  <script>
+    var typed = new Typed('.motto', {
+      strings: ["","Belajar","Berkolaborasi","Berbagi","Bereksperimen"],
+      typeSpeed: 50,
+      delaySpeed : 90,
+      loop : true,
+    });
+  </script>
+
+</body>
+
+
+</html>
